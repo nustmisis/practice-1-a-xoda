@@ -6,3 +6,10 @@
 
 @author: Savant
 """
+x = input()
+sum = 0
+res = ''
+for x_ in x:
+  res += x_ + ' + '
+  sum += int(x_)
+print(res[:-2] + '= ' + str(sum))
